@@ -1,0 +1,191 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+.weather-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  border-radius: 10px;
+  max-width: 100%;
+  height: 568px;
+
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(34, 34, 34, 0.4);
+}
+
+.content {
+  font-family: 'Inter';
+  padding: 20px 77px 20px 80px;
+  color: white;
+  width: 686px;
+}
+
+.logo {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.weather-content {
+  padding-top: 198px;
+}
+
+.header-weather {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-weather-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.temperature {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.city-name {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.last-updated {
+  font-size: 16px;
+  font-weight: 400;
+  color: #D2D2D2;
+}
+
+.weather-condition {
+  text-align: center;
+}
+
+.weather-icon {
+  height: 50px;
+}
+
+.weather-text {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hourly-forecast-wrapper{
+  margin-top: 40px;
+ 
+}
+
+.hourly-forecast {
+  font-size: 14px;
+  font-weight: 600;
+  color: #A1A1A1;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+
+
+.hours {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  text-align: center;
+}
+
+.hour-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.weather-img {
+  width: 40px;
+}
+
+.tool-bar {
+  font-family: 'Inter';
+  color: white;
+  width: 380px;
+  padding-left: 30px;
+  background-color: rgba(13, 13, 13, 0.5);
+  border-radius: 0 10px 10px 0;
+  height: 100%;
+}
+
+.cities { 
+  padding-top: 40.5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.city-list-wrapper {
+
+}
+
+.city-list { 
+  padding: 0;
+  list-style: none;
+}
+
+.city-list-item {
+  color: #A1A1A1;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+
+}
+
+li.city-list-item:not(:last-child) {
+
+  margin-bottom: 15px;  
+
+}
+
+
+hr {
+  border: 0px;
+  background-color: #8B8B8B;
+  height: 0.5px;
+  width: 320px;
+  margin: 10px 0 20px 0;
+}
+
+hr.second {
+  margin: 50px 0 50px 0;
+}
+
+.deatails-weather-header {
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+
+.weather-details-wrapper {
+  margin-top: 20px;
+}
+
+.weather-table {
+  width: 320px;
+  max-width: 100%;
+  border-spacing: 0 15px;
+}
+
+.condition-name {
+  color: #A1A1A1;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.condition-value {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
